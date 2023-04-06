@@ -7,6 +7,11 @@ async function main() {
   // Start deployment, returning a promise that resolves to a contract object
   const hello_world = await HelloWorld.deploy();
   console.log("Contract deployed to address:", hello_world.address);
+
+  const IRLToken = await ethers.getContractFactory("IRLToken");
+
+  const irl_token = await IRLToken.deploy("IRLToken");
+  console.log("Token deployed to:", irl_token.address);
 }
 
 main()
