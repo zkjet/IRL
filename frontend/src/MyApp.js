@@ -28,11 +28,11 @@ const MyApp = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="http://www.www.com">Item 1</a>
+                <a href="http://www.www.com">Home</a>
               </li>
               <li tabIndex={0}>
                 <a className="justify-between" href="http://www.www.com">
-                  Parent
+                  IRL Contracts
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
@@ -45,15 +45,15 @@ const MyApp = () => {
                 </a>
                 <ul className="p-2">
                   <li>
-                    <a href="http://www.www.com">Submenu 1</a>
+                    <a href="http://www.www.com">Landscaping</a>
                   </li>
                   <li>
-                    <a href="http://www.www.com">Submenu 2</a>
+                    <a href="http://www.www.com">Car Purchase</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="http://www.www.com">Item 3</a>
+                <a href="http://www.www.com">Custom Contract</a>
               </li>
             </ul>
           </div>
@@ -67,11 +67,11 @@ const MyApp = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a href="http://www.www.com">Item 1</a>
+              <a href="http://www.www.com">Home</a>
             </li>
             <li tabIndex={0}>
               <a href="http://www.www.com">
-                Parent
+                IRL Contracts
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -84,15 +84,15 @@ const MyApp = () => {
               </a>
               <ul className="p-2">
                 <li>
-                  <a href="http://www.www.com">Submenu 1</a>
+                  <a href="http://www.www.com">Landscaping</a>
                 </li>
                 <li>
-                  <a href="http://www.www.com">Submenu 2</a>
+                  <a href="http://www.www.com">Car Purchase</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="http://www.www.com">Item 3</a>
+              <a href="http://www.www.com">Custom Contract</a>
             </li>
           </ul>
         </div>
@@ -105,23 +105,13 @@ const MyApp = () => {
           <div className="hero-content text-center">
             <div className="max-w-md">
               <h1 className="text-5xl font-bold">Welcome to IRL Contracts</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
+              <p className="py-6">Interact with testnet live contracts!</p>
               <button className="btn btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
-                Get Started
+                Enter dApp
               </button>
-              <div className="flex w-full">
-                <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">
-                  content
-                </div>
-                <div className="divider divider-horizontal"></div>
-                <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">
-                  content
-                </div>
-              </div>
+              <h3 className="text-1xl font-bold">
+                Landscaping, Car Purchase Agreements, Custom Contracts
+              </h3>
             </div>
           </div>
         </div>
