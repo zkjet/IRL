@@ -1,6 +1,5 @@
 import "@rainbow-me/rainbowkit/styles.css";
 import MyApp from "./MyApp";
-
 import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { mainnet, polygon, optimism, arbitrum, sepolia } from "wagmi/chains";

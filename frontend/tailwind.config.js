@@ -6,6 +6,7 @@ module.exports = {
     "node_modules/react-daisyui/dist/**/*.js",
   ],
   theme: {
+    darkMode: "class",
     extend: {},
   },
   plugins: [require("daisyui")],
