@@ -3,6 +3,9 @@ import { HardhatUserConfig } from "hardhat/config";
 import { ethers } from "ethers";
 import "@nomiclabs/hardhat-etherscan";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomiclabs/hardhat-ethers";
+// import hre from "hardhat";
+
 import * as dotenv from 'dotenv';
 dotenv.config();
 
@@ -26,7 +29,6 @@ const config: HardhatUserConfig = {
       runs: 200,
     },
   },
-  defaultNetwork: "sepolia",
   networks: {
     hardhat: {
     },

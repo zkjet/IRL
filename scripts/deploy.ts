@@ -1,4 +1,5 @@
 import { ethers } from "hardhat";
+const hre = require("hardhat");
 
 async function main() {
   const HelloWorld = await ethers.getContractFactory("HelloWorld");
