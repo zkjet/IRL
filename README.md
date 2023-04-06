@@ -12,7 +12,7 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
-![DaisyUI](https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg=400x400)
+![DaisyUI](https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo-4.svg=100x40)
 ## Documentation
 
 Presentation [is available here](https://www.www.com).
