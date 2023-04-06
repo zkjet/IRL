@@ -105,7 +105,7 @@ const MyApp = () => {
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-7xl font-bold">IRL Contracts</h1>
+              <h1 className="text-7xl font-bold color-white">IRL Contracts</h1>
               <br />
               <button className="btn btn-lg btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
                 Enter dApp
