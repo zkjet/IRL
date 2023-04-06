@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://www.www.com">
-    <img src="./assets/screen.png" alt="" width="350" height="350">
+    <img src="./assets/screen.png" alt="" width="660" height="450">
   </a>
 </p>
 
