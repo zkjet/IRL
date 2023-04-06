@@ -110,7 +110,7 @@ const MyApp = () => {
               <button className="btn btn-lg btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
                 Enter dApp
               </button>
-              <p className="py-6">Interact with testnet live contracts!</p>
+              <p className="py-6">Smart contracts In Real Life</p>
               <img src={pinkpng} alt="video" />
               <h3 className="text-1xl font-bold">
                 Landscaping, Car Purchase Agreements, Custom Contracts

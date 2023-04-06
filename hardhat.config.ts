@@ -33,9 +33,6 @@ const config: HardhatUserConfig = {
     hardhat: {
       chainId: 31337,
     },
-    localhost: {
-      chainId: 31337,
-    },
     sepolia: {
       url: "https://sepolia.infura.io/v3/" + INFURA_API_KEY,
       accounts: [PRIVATE_KEY],
