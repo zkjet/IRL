@@ -16,6 +16,7 @@
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
 </p>
+
 ## Documentation
 
 Presentation [is available here](https://docs.google.com/presentation/d/1b_Fy8l3wLm8-ZuozdH7DRxXhcWh2MstvNbdja1Stft8/edit?usp=sharing).
