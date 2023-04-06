@@ -39,8 +39,11 @@ IRL Contracts is a Decentralized application utilizing smart contracts to integr
 ```
 
 2. Step 2
-```
-npm install 
+```shell
+npm install && cd frontend && npm install
+npx hardhat compile
+npx hardhat run scripts/deploy.ts
+cd frontend && npm start
 ```
 
 ```jsx
@@ -55,11 +58,11 @@ function App() {
 
 ## Roadmap
 
-* []()
+* [ ] Wire frontend to smart contracts
 
 * []()
 
-* []()
+* [ ] Deploy to server
 
 <!-- CONTACT -->
 ## Contact

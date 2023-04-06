@@ -1,13 +1,27 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
 import App from "./App";
+import dApp from "./components/dApp";
+
 import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" exact component={<App />}>
+      <Route path="/dApp" exact component={<dApp />} />
+    </Route>
+  )
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

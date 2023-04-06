@@ -1,10 +1,8 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import Footer from "./components/Footer";
-import pinkpng from "./assets/pinkpng.png";
+import Footer from "./Footer";
 import { Link } from "react-daisyui";
-import dApp from "./components/dApp";
 
-const MyApp = () => {
+const dApp = () => {
   return (
     <div className="">
       <div className="navbar bg-gradient-to-r from-rose-700 to-pink-600 text-primary-content">
@@ -104,23 +102,8 @@ const MyApp = () => {
         </div>
       </div>
       <main>
-        <div className="hero min-h-screen bg-base-200">
-          <div className="hero-content text-center">
-            <div className="max-w-md">
-              <h1 className="text-7xl font-bold color-white">IRL Contracts</h1>
-              <br />
-              <Link to="/dApp">
-                <button className="btn btn-lg btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
-                  Enter dApp
-                </button>
-              </Link>
-              <p className="py-6">Smart contracts In Real Life</p>
-              <img src={pinkpng} alt="video" />
-              <h3 className="text-1xl font-bold">
-                Landscaping, Car Purchase Agreements, Custom Contracts
-              </h3>
-            </div>
-          </div>
+        <div>
+          <Link path="/MyApp">Home</Link>
         </div>
       </main>
       <footer>
@@ -129,4 +112,4 @@ const MyApp = () => {
     </div>
   );
 };
-export default MyApp;
+export default dApp;
