@@ -23,7 +23,7 @@ Information [](https://github.com/zkjet).
 
 [Get your project up and running in just a couple of minutes](https://easybase.io/react/#setup):
 
-1. Download your `ebconfig` token and place it at the root of your project
+IRL Contracts is a Decentralized application utilizing smart contracts to integrate and automate real life contractable transactions such as private auto sales, landscaping contracts, and second hand collectibles.
 
 ```shell
 ├── src/
