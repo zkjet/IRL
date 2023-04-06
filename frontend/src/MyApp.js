@@ -105,12 +105,12 @@ const MyApp = () => {
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-8xl font-bold">IRL Contracts</h1>
-              <button className="btn btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
+              <h1 className="text-7xl font-bold">IRL Contracts</h1>
+              <br />
+              <button className="btn btn-lg btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
                 Enter dApp
               </button>
               <p className="py-6">Interact with testnet live contracts!</p>
-
               <img src={pinkpng} alt="video" />
               <h3 className="text-1xl font-bold">
                 Landscaping, Car Purchase Agreements, Custom Contracts
