@@ -1,5 +1,6 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Footer from "./components/Footer";
+import pinkpng from "./assets/pinkpng.png";
 
 const MyApp = () => {
   return (
@@ -104,11 +105,13 @@ const MyApp = () => {
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-5xl font-bold">Welcome to IRL Contracts</h1>
-              <p className="py-6">Interact with testnet live contracts!</p>
+              <h1 className="text-8xl font-bold">IRL Contracts</h1>
               <button className="btn btn-primary bg-gradient-to-r from-rose-700 to-pink-600">
                 Enter dApp
               </button>
+              <p className="py-6">Interact with testnet live contracts!</p>
+
+              <img src={pinkpng} alt="video" />
               <h3 className="text-1xl font-bold">
                 Landscaping, Car Purchase Agreements, Custom Contracts
               </h3>
