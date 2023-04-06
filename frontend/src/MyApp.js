@@ -1,4 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Footer from "./components/Footer";
 
 const MyApp = () => {
   return (
@@ -125,6 +126,9 @@ const MyApp = () => {
           </div>
         </div>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
